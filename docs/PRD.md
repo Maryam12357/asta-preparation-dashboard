@@ -126,7 +126,7 @@ Given that the dashboard is viewed on a narrow mobile screen, when the content i
 
 ## 9. Design Requirements
 
-- Use a dark, anime-inspired visual style with black and charcoal backgrounds and subtle gold accents.
+- Use a dark, anime-inspired visual style with black and charcoal backgrounds and Orange-red accents.
 - Keep the interface focused on one dashboard screen.
 - Present the training tasks in clearly distinguishable cards or sections.
 - Make task completion controls and progress information easy to locate.
