@@ -133,10 +133,10 @@ export default function Home() {
             aria-valuenow={percentage}
             aria-valuetext={`${completedCount} of ${tasks.length} tasks completed, ${percentage}%`}
           >
-            {tasks.map((task) => (
+            {tasks.map((task, index) => (
               <span
                 key={task.id}
-                className={`progress-segment${task.completed ? " is-complete" : ""}`}
+                className={`progress-segment${index < completedCount ? " is-complete" : ""}`}
                 aria-hidden="true"
               />
             ))}

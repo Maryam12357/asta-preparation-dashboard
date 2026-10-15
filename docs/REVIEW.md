@@ -55,3 +55,20 @@ Each task has a completion state: completed or incomplete. When a task is marked
 **7. If agents can generate code, what decisions and checks were still your responsibility?**
 
 I was responsible for defining the requirements, reviewing the AI-generated design, checking the functionality, and making sure the project followed the PRD. I also manually tested task completion, undo functionality, percentages, and the mobile layout. Finally, I ran lint and build checks successfully.
+
+### Mobile Responsiveness and Accessibility Review
+
+**Mobile Testing:**
+- Tested the dashboard using Chrome DevTools at a viewport size of 360 × 645 pixels.
+- Verified that the progress bar, task cards, and buttons fit within the mobile layout.
+- Confirmed that the progress summary displays 33% when one of the three tasks is completed.
+- Saved mobile testing evidence in `docs/evidence/mobile-360px.png`.
+
+**Keyboard Accessibility:**
+- The task buttons support keyboard interaction using Tab to focus and Enter or Space to activate.
+- Buttons include descriptive accessible labels and indicate their pressed state.
+- Manually verified keyboard accessibility using Tab to focus on task buttons, Enter to mark a task as completed, and Space to undo completion. All interactions worked correctly, and the progress percentage updated accordingly.
+- Verified that the overall progress bar fills from left to right based on the number of completed tasks, regardless of which task is completed first.
+
+**Future Improvement:**
+- Improve the mobile progress bar's visual clarity based on feedback from another tester.
